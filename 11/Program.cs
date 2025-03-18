@@ -9,6 +9,20 @@ Console.WriteLine("Search");
 Console.WriteLine("Selection");
 Console.WriteLine("list");
 
+
+public class book
+{
+    public string Name { get; set; }
+    public string Year { get; set; }
+    public string Author { get; set; }
+    public int Collection { get; set; }
+}
+
+public class admin
+{
+    public string Genre { get; set; }
+    public double Amount { get; set; }
+}
 /*Створити програму для обліку книг, довідок про про наявність книг, журналів, газет. Реалізувати наступні сервіси:
  Заповнення бази даних 
  Перегляд даних про всі джерела
